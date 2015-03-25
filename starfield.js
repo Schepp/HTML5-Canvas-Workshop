@@ -9,10 +9,9 @@ $(function() {
 		speed = 3,
 
 		random = function random(max) {
-			var doubleRangeValue = Math.max(0.5, Math.random() * max * 2),
-				value = doubleRangeValue - max;
+			var doubleRangeValue = Math.max(0.5, Math.random() * max * 2);
 
-			return value;
+			return doubleRangeValue - max;
 		},
 
 		createStar = function createStar() {
