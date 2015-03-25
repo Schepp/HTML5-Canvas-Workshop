@@ -1,4 +1,4 @@
-$(function() {
+(function() {
 
 	var canvas = document.querySelector('#main'),
 		ctx = canvas.getContext('2d'),
@@ -67,7 +67,7 @@ $(function() {
 	// Start animation
 	draw();
 
-});
+})();
 
 //ctx.globalAlpha = 0.1;
 //ctx.fillStyle = 'black';
