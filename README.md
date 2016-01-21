@@ -7,6 +7,7 @@
 - Have a ball jump around inside the screen, with gravitation
 - Program a Pong game
 - Program a Space Invaders game
+- Recreate the effect seen on the [website of TweenJS](http://www.createjs.com/tweenjs)
 
 ## Cheat Sheets
 
@@ -16,4 +17,9 @@
 ## Reference & Tutorials
 
 [HTML5 Canvas Tutorials](http://www.html5canvastutorials.com/)
+
+## Create Tweeing Effects
+
+[Using jQuery](http://james.padolsey.com/javascript/fun-with-jquerys-animate/)
+[Using TweenJS](http://www.createjs.com/getting-started/tweenjs)
 
