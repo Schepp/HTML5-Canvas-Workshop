@@ -32,7 +32,7 @@
 				ctx.beginPath();
 				ctx.arc(snowflake.position.x, snowflake.position.y, snowflake.speed, 0, Math.PI * 2);
 				// fill the color with a brightness relative to its speed
-				ctx.fillStyle = 'rgba(255, 255, 255, ' + ((snowflake.speed / speed) * 1) + ')';
+				ctx.fillStyle = 'rgba(255, 255, 255, ' + (snowflake.speed / speed) + ')';
 				ctx.fill();
 
 				// modify its position for next time
